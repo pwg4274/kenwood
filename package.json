@@ -1,0 +1,8 @@
+{
+  "name": "kenwood",
+  "private": true,
+  "description": "Kenwood Productions",
+  "scripts": {
+    "build": "echo 'No frontend build'"
+  }
+}
