@@ -28,7 +28,10 @@
     },
     "config": {
         "optimize-autoloader": true,
-        "preferred-install": "dist",
+        "preferred-install": {
+            "*": "dist",
+            "laravel/framework": "source"
+        },
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
