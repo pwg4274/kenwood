@@ -1,6 +1,6 @@
 # Kenwood Productions
 
-A minimal Laravel 11 site showing the Kenwood logo.
+A minimal Laravel 12 site showing the Kenwood logo.
 
 ## Setup
 
@@ -21,6 +21,16 @@ A minimal Laravel 11 site showing the Kenwood logo.
    Then open http://localhost:8000
 
 For production, point your web server (Apache/Nginx) at the `public` directory.
+
+### Deploying on Laravel Forge
+
+If deploy fails with missing files or traits (e.g. `ReflectsClosures` not found), the server’s Composer cache may be corrupted. In the site’s **Deployment Script** in Forge, add this line **before** `composer install`:
+
+```bash
+composer clear-cache
+```
+
+Then deploy again so dependencies are downloaded fresh.
 
 ## Structure
 

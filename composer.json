@@ -4,8 +4,8 @@
     "description": "Kenwood Productions - basic Laravel site",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9"
+        "laravel/framework": "^12.0",
+        "laravel/tinker": "^2.10"
     },
     "require-dev": {
         "laravel/pint": "^1.13"
